@@ -1,7 +1,8 @@
 # int - целое число
-from operator import truediv
-
 age = 10
+
+# None - пустая переменная
+x = None
 
 # float - дробное число
 pi = 3.14
@@ -26,3 +27,9 @@ person = {
 
 # set - множество (запрещены дубликаты)
 s_set = {"a", 3}
+
+# Узнаем тип переменной
+print(type(s_set))
+
+# Функция округления
+print(round(1.2 * 3, 2))
